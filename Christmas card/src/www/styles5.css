@@ -1,0 +1,56 @@
+html
+{
+width: 240px;
+	height: 320px;
+	
+}
+body
+{
+	background: url('bgimage.jpg');
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 320px;
+	
+}
+
+#parent_div {
+  background: black; 
+  height: 100%;
+  opacity: 0.75;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+}
+
+#div {
+  background: black;
+  padding: 0px;  
+  height: 300px;
+  position: fixed;
+  top: 300px;
+  left: 200px;
+  color: red;
+  width: 100px;
+  
+    
+
+}
+#dclose
+{
+	  background: url('xtree1.png');
+		background-repeat: no-repeat;
+   width: 100px;
+   height: 300px;
+  
+}
+.myButton {
+		position: fixed;
+	top: 150px;
+	left: 80px;
+	width:200px;
+		height:200px;
+	background: url('podarok.png');
+}

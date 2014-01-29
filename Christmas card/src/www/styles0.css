@@ -1,0 +1,146 @@
+html
+{
+width: 240px;
+	height: 320px;
+	
+}
+body
+{
+	background: url('bgimage.jpg');
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 320px;
+	opacity: 0.90;
+}
+
+#parent_div {
+  background: black; 
+  height: 100%;
+  opacity: 0.75;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+}
+
+#div {
+  background: black;
+  padding: 0px;  
+  height: 300px;
+  position: fixed;
+  top: 300px;
+  left: 200px;
+  color: red;
+  width: 100px;
+
+}
+#dclose
+{
+	  background: url('xtree1.png');
+		background-repeat: no-repeat;
+   width: 70px;
+   height: 70px;
+  
+}
+a#close {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+    height: 200px;
+}
+
+#show_but
+{
+	top: 100px;
+	left: 200px;
+}
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fdfcff), color-stop(1, #d0c5fa) );
+	background:-moz-linear-gradient( center top, #fdfcff 5%, #d0c5fa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfcff', endColorstr='#d0c5fa');
+	background-color:#fdfcff;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:2px solid #d5d4e6;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+	height:69px;
+	line-height:69px;
+	width:161px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+	top: 230px;
+	left: 160px;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d0c5fa), color-stop(1, #fdfcff) );
+	background:-moz-linear-gradient( center top, #d0c5fa 5%, #fdfcff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0c5fa', endColorstr='#fdfcff');
+	background-color:#d0c5fa;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+	
+	display:inline-block;
+	cursor:pointer;
+		text-decoration:none;
+		position: fixed;
+	top: 150px;
+	left: 60px;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+		text-align:center;
+		width:200px;
+		height:200px;
+	background: url('podarok.png');
+	z-index: 50;
+}
+.myButton:hover {
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#button_galary
+{
+	position: fixed;
+	top: 150px;
+	left: 100px;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+		background-color:#fdfcff;
+		text-align:center;
+		width:161px;
+		height:69px;
+
+	color:#777777;
+}
